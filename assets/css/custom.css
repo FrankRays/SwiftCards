@@ -1,0 +1,222 @@
+/* 
+We created a this custom.css file so you can add customize styles without modifying the bootstrap stylesheet. However, you can use your own stylesheets if you prefer.  
+*/
+
+.modal-ish {
+    width: 360px;
+    text-align:center;
+    margin: 30px auto auto auto;
+    overflow: auto;
+    background-color: #ffffff;
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    *border: 1px solid #999;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+.back-button {
+    display: inline-block;
+    position: relative;
+    background: #F7F7F7;
+    padding: 0 5px 0px 10px;
+    color: #333333 !important;
+/*    border: 1px solid grey;*/
+}
+
+.back-button:hover {
+    cursor: pointer !important;
+}
+
+.back-button:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    margin-top: -11px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 10px solid #F7F7F7;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid transparent;
+    height: 2px;
+}
+
+#content {
+    width:550px;
+    margin: 70px auto auto auto; 
+}
+
+.complete-task
+{
+    text-decoration: line-through !important;
+    font-style: italic !important;
+    color: grey !important;
+}
+
+.incomplete-task
+{
+    text-decoration: none !important;
+    font-style: normal !important;
+    color: #555555 !important;
+}
+
+#sortable .ui-state-default
+{
+    min-height: 40px;
+    padding-top: 20px;   
+}
+
+.portlet-header
+{
+    min-height: 40px;   
+    padding-top: 20px;   
+}
+body
+{
+    padding: 10px 10px 10px 10px;
+}
+label {
+    display: block;
+    padding-left: 15px;
+    text-indent: -15px;
+}
+
+.portlet
+{
+    text-align: center !important;
+    padding-right: 30px !important;
+}
+
+.ui-widget-content
+{
+    border: none !important;
+}
+
+select input {
+    width: 13px;
+    height: 13px;
+    padding: 0;
+    margin:0;
+    vertical-align: bottom;
+    position: relative;
+    top: -1px;
+    *overflow: hidden;
+}
+body {
+    min-width: 520px;
+}
+
+ul
+{
+    list-style: none;
+}
+
+.scrum
+{
+    padding-top: 30px;
+    display: inline-flex;
+}
+
+.ui-sortable
+{
+    min-width: 450px;
+}
+
+.ui-widget
+{
+    min-width: 450px;
+}
+
+fieldset
+{
+    height: 200px;
+    overflow-y: auto;
+}
+
+.fifty-split-screen-left
+{
+    width: 50%;
+    min-height: 400px;
+    float: left;
+}
+
+.fifty-split-screen-right
+{
+    width: 50%;
+    min-height: 400px;
+    float: right;
+}
+
+.pair-task-list
+{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body
+{
+    padding: 10px 10px 10px 10px;
+}
+label {
+    display: block;
+    padding-left: 15px;
+    text-indent: -15px;
+}
+
+.portlet
+{
+    text-align: center !important;
+}
+
+select input {
+    width: 13px;
+    height: 13px;
+    padding: 0;
+    margin:0;
+    vertical-align: bottom;
+    position: relative;
+    top: -1px;
+    *overflow: hidden;
+}
+body {
+    min-width: 520px;
+}
+
+ul
+{
+    list-style: none;
+}
+
+.scrum
+{
+    padding-top: 30px;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+#carousel{
+    width:550px;
+    margin: 70px auto auto auto; 
+}
+
+fieldset
+{
+    height: 200px;
+    overflow-y: auto;
+}
+#selectable .ui-selecting { background: #006DCC; }
+#selectable .ui-selected { background: #006DCC; color: white; }
+#selectable { list-style-type: none; margin: 0; padding: 0; padding-top: 10px; width: 450px; }
+#selectable li { margin: 3px; padding: 30px 0 0 0; float: left; width: 140px; height: 50px; font-size: 1.1em; text-align: center; }
+#selectable :hover { cursor: pointer !important;}

@@ -1,0 +1,121 @@
+ 
+        </title>
+	 <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container clearfix">
+        <a class="brand" id="logo" href="/">TeamMethod</a>
+
+        
+        <ul class="nav pull-right">
+            	<li><a href="/project/">Account Home</a></li>
+                <li><a href="/project/account-details.php">Account Details</a></li>
+ 				<li><a href="/project/logout.php">Logout</a></li>
+        </ul>
+        
+      </div>
+    </div>
+  </div>        
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <script src="../assets/js/agile.js"></script>
+        <script src="../assets/js/jeditable.js"></script>
+        <!--
+        
+        
+        -->
+        <link href="../assets/css/bootstrap.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/css/custom.css" rel="stylesheet" type="text/css" />
+        
+        
+        
+        
+        <script src="../assets/js/bootstrap-carousel.js"></script>
+        
+        <script src="../assets/js/bootstrap-transition.js"></script>
+    </head>
+    <style>
+        body
+        {
+            padding: 10px 10px 10px 10px;
+        }
+        label {
+            display: block;
+            padding-left: 15px;
+            text-indent: -15px;
+        }
+        
+        .portlet
+        {
+            text-align: center !important;
+            padding-right: 30px !important;
+        }
+        
+        .ui-widget-content
+        {
+            border: none !important;
+        }
+        
+        select input {
+            width: 13px;
+            height: 13px;
+            padding: 0;
+            margin:0;
+            vertical-align: bottom;
+            position: relative;
+            top: -1px;
+            *overflow: hidden;
+        }
+        body {
+            min-width: 520px;
+        }
+        
+        ul
+        {
+            list-style: none;
+        }
+        
+        .scrum
+        {
+            padding-top: 30px;
+            display: inline-flex;
+        }
+        
+        .ui-sortable
+        {
+            min-width: 450px;
+        }
+        
+        .ui-widget
+        {
+            min-width: 450px;
+        }
+        
+        fieldset
+        {
+            height: 200px;
+            overflow-y: auto;
+        }
+    </style>
+    
+    <body>
+        <div id="content">
+            <button id="addTimeBox" class="btn btn-primary">Add Time-box</button>
+        </div>
+        
+        <div class="timeboxes">
+            <div class="scrum">    
+                <div class="portlet">
+                    <div class="portlet-header"><a>Click To Edit..</a></div>
+                    <div class="portlet-content">
+                        <ul id="sortable" class="connectedSortable">
+                            <li class="ui-state-default"><a>Implement CSS Suggestions</a></li>
+                            <li class="ui-state-default"><a>Introduce Media Queries</a></li>
+                            <li class="ui-state-default final-element"><input class="add-new-task" value="Add a new task..." type="text"></input></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
